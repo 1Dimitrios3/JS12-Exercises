@@ -103,12 +103,25 @@ $(document).ready(function() {
   $section
     .append("<h3>Here comes Santa Claus. But he doesnt have any gifts!</h3>")
     .addClass("sect")
-    .on("mouseenter", function() {
-      $(this).css("background-color", "pink");
+    // .removeClass("")
+    .on({
+      mouseenter: function() {
+        $(this).css("background-color", "pink");
+      },
+      mouseleave: function() {
+        $(this).css("background-color", "orange");
+      }
     });
 
   // change css on mouse enter event
   //   $("article").on("mouseenter", function() {
   //     $(this).css("text-decoration", "underline");
   //   });
+
+  // DOM traverse
+  const $allToClassGo = $("article").parents();
+  $allToClassGo.addClass("go");
+
+  //   const $childrenToClass = $("#listSelection").children();
+  //   $childrenToClass.addClass("go");
 });
