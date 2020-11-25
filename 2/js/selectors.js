@@ -119,9 +119,28 @@ $(document).ready(function() {
   //   });
 
   // DOM traverse
-  const $allToClassGo = $("article").parents();
-  $allToClassGo.addClass("go");
+  //   const $allToClassGo = $("article").parents();
+  //   $allToClassGo.addClass("go");
 
   //   const $childrenToClass = $("#listSelection").children();
   //   $childrenToClass.addClass("go");
+
+  //   const $parentLi = $(".listA").parent();
+  //   $parentLi.on({
+  //     mouseenter: function() {
+  //       $(this).addClass("go");
+  //     },
+  //     mouseleave: function() {
+  //       $(this).removeClass("go");
+  //     }
+  //   });
+
+  //   $("li[class$='B']")
+  //     .addClass("box")
+  //     .removeClass("listB");
+
+  // Add nodes to html
+  const $newP = $("<p>THIS IS SPARTA!!</p>");
+
+  $("article").append($newP);
 });
