@@ -1,32 +1,39 @@
 .go {
-    margin: 1em;
-    padding: 2em;
-    border: darkgrey solid 2px;
-    background-color: bisque;
+  margin: 1em;
+  padding: 2em;
+  border: darkgrey solid 2px;
+  background-color: bisque;
+}
+
+.sect {
+  margin: 1em;
+  padding: 2em;
+  border: rgb(0, 222, 252) solid 2px;
+  background-color: #c4f3ff;
 }
 
 div {
-    margin: 1em;
+  margin: 1em;
 }
 
 a {
-    display: inline-block;
-  }
-  
-  .box {
-    display: none;
-    width: 200px;
-    height: 200px;
-    line-height: 200px;
-    padding: 1em;
-    background-color: pink;
-  }
-  
-  .button {
-    width: 200px;
-    cursor: pointer;
-    border: 1px solid gray;
-    border-radius: 5px;
-    padding: 1em;
-    background-color: azure;
-  }
+  display: inline-block;
+}
+
+.box {
+  display: none;
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  padding: 1em;
+  background-color: pink;
+}
+
+.button {
+  width: 200px;
+  cursor: pointer;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 1em;
+  background-color: azure;
+}
