@@ -1,12 +1,21 @@
 div {
-    border: 2px solid blue;
-    text-align: center;
+  border: 2px solid blue;
+  text-align: center;
 }
 
-section{
-    font-family: 'Comfortaa', cursive;
+section {
+  font-family: "Comfortaa", cursive;
 }
 
-ul{
-list-style-type: lower-greek;
+ul {
+  list-style-type: lower-greek;
+}
+
+button {
+  width: 200px;
+  padding: 30px;
+  border: none;
+  color: white;
+  font-size: 1.2em;
+  text-align: center;
 }
