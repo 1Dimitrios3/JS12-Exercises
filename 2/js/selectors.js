@@ -135,7 +135,7 @@ $(document).ready(function() {
   //     }
   //   });
 
-  //   $("li[class$='B']")
+  //   $("li[class$='B']") // a class that ends with B
   //     .addClass("box")
   //     .removeClass("listB");
 
